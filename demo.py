@@ -343,3 +343,6 @@ with tab5:
             else:
                 st.success(f"Прогнозируемый RUL: {int_pred_rul} циклов")
                 st.success("Необходимости в ТО нет")
+
+st.markdown("---")
+st.write("Проект подготовлен Бакытжаном Казиевым на Demo Day @ Outpeer.kz")
