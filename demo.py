@@ -8,8 +8,6 @@ from sklearn.svm import SVR
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.metrics import mean_squared_error, r2_score
-from skopt import BayesSearchCV
-from skopt.space import Real, Integer
 import xgboost
 import seaborn as sns
 
